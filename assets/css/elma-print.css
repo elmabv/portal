@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://aliconnect.nl/sdk-1.0.0/lib/aim/font/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal
+}
+@font-face {
+  font-family: 'Montserrat Light';
+  src: url('https://aliconnect.nl/sdk-1.0.0/lib/aim/font/Montserrat-Light.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal
+}
+body,table {
+  font-family: Helvetica,Arial;
+  font-size: 9pt;
+}
+table {
+  width: 100%;
+  border-collapse: collapse; 
+}
+th,td {
+  text-align: left;
+  vertical-align: top;
+}
+th {
+  width: 0%;
+  padding-right: 10px;
+  white-space: nowrap;
+}
+td {
+  /* width: 50%; */
+}
+h1 {
+  /* color:red; */
+}
+@page {
+  margin: 30mm 15mm 10mm 20mm;
+}
+
+body>header {
+  position: fixed;
+  top: -20mm;
+  left: 0px;
+  right: 0px;
+}
+
+body>footer {
+  position: fixed;
+  bottom: -10mm;
+  left: 0px;
+  right: 0px;
+}
+
+@media print {
+  body>header {
+    display: none;
+  }
+}

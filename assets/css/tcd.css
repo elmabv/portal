@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://aliconnect.nl/sdk-1.0.0/lib/aim/font/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url('https://aliconnect.nl/sdk-1.0.0/lib/aim/font/Montserrat-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal
+}
+
+body {
+  font-family: 'Montserrat';
+}
+h1 {
+  /* color:red; */
+}
